@@ -1,11 +1,14 @@
-var number = 25 
-if(typeof num === "number") {
-    if(num > 9 && nm<100) {
+var a = ":("
 
-        var secondNumber = num % 10
-        var firstNumber = (num - secondNumber) /10
-        var result = secondNumber * 10 + firstNumber
-        console.log (result)
-    } else {
-        console.log ("Error")
-    } else {
+switch (a) {
+    case ":)":
+    case ":-)":
+        console.log("Happy")
+        break;
+    case ":/":
+    case ":(":
+        console.log("Sad")
+        break;
+    default:
+        console.log("Bla")
+}
